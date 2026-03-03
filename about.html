@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — TPI | Trivial Pursuits Inc.</title>
+  <meta name="description" content="We see what others miss. TPI is a brand strategy and systems consulting agency that helps businesses see clearly and move decisively.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo" aria-label="TPI Home">
+        <span class="nav__logo-mark">TPI</span>
+        <span class="nav__logo-name">Trivial Pursuits Inc.</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="contact.html" class="nav__cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero" aria-label="About hero">
+    <div class="hero__bg-eyes" aria-hidden="true">
+      <svg class="eye-icon eye-icon--xl eye-float-2" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <rect width="120" height="120" fill="#1B3FE8"/>
+        <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+        <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+        <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+        <circle cx="60" cy="60" r="8" fill="white"/>
+      </svg>
+      <svg class="eye-icon eye-icon--xl eye-float-1" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <rect width="120" height="120" fill="#E8162B"/>
+        <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+        <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+        <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+        <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+      </svg>
+    </div>
+    <div class="hero__content container">
+      <p class="hero__eyebrow">About TPI</p>
+      <h1 class="hero__headline" style="font-size: clamp(60px, 10vw, 144px);">
+        <span>We see</span>
+        <span>what others</span>
+        <span>miss.</span>
+      </h1>
+    </div>
+  </section>
+
+  <!-- ── Philosophy ── -->
+  <section class="section" aria-labelledby="philosophy-heading">
+    <div class="container">
+      <div class="about-philosophy">
+        <div class="about-philosophy__copy">
+          <p class="section-label reveal">Our philosophy</p>
+          <h2 class="t-title reveal reveal-delay-1" id="philosophy-heading" style="margin-bottom:32px;">
+            We founded TPI because the market was full of agencies selling aesthetics and consultancies selling complexity.
+          </h2>
+          <div class="t-body reveal reveal-delay-2">
+            <p>Most agencies make things look good. We make things make sense. Then we make them look good. The order matters — a polished brand built on a blurry strategy is expensive noise. We start by finding the signal.</p>
+            <p>We've worked with startups raising their first round, mid-market companies pushing into new verticals, and established businesses who knew something wasn't working but couldn't name it. In almost every case, the answer is a clarity problem. The product is real. The team is capable. But the story, the structure, or the go-to-market is misaligned — and misalignment compounds.</p>
+            <p>TPI exists to solve that. We are strategic partners, not service providers. We sit in the work with you, challenge comfortable assumptions, and build the systems that let good ideas actually get somewhere.</p>
+          </div>
+          <a href="services.html" class="btn btn--primary reveal reveal-delay-3" style="margin-top:40px;">How we work</a>
+        </div>
+
+        <!-- Floating eye -->
+        <div style="display:flex; justify-content:center; align-items:flex-start; padding-top:8px;" aria-hidden="true">
+          <svg class="eye-icon eye-icon--lg eye-float-3 reveal reveal-delay-2" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#F5E616"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Pull Quote ── -->
+  <section class="section section--blue" aria-label="Pull quote">
+    <div class="container">
+      <blockquote class="pull-quote reveal" style="max-width:900px;">
+        "Strategy without clarity<br>is just expensive guessing."
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ── What drives us ── -->
+  <section class="section" aria-labelledby="values-heading">
+    <div class="container">
+      <p class="section-label reveal">What drives us</p>
+      <h2 class="t-display reveal reveal-delay-1" id="values-heading" style="margin-bottom:64px; max-width:720px;">
+        Three principles we don't negotiate on.
+      </h2>
+      <div class="grid-3">
+        <div class="reveal reveal-delay-1" style="border-top: 3px solid var(--black); padding-top: 28px;">
+          <h3 class="t-title" style="margin-bottom:16px; color: var(--red);">Clarity first.</h3>
+          <p class="t-body">If we can't explain it simply, we don't understand it yet. We don't present until we can say the thing plainly — and we expect the same from our clients.</p>
+        </div>
+        <div class="reveal reveal-delay-2" style="border-top: 3px solid var(--black); padding-top: 28px;">
+          <h3 class="t-title" style="margin-bottom:16px; color: var(--blue);">Systems over tactics.</h3>
+          <p class="t-body">One-off campaigns fade. We build repeatable, scalable approaches — frameworks that keep working after we're gone.</p>
+        </div>
+        <div class="reveal reveal-delay-3" style="border-top: 3px solid var(--black); padding-top: 28px;">
+          <h3 class="t-title" style="margin-bottom:16px;">Honesty over comfort.</h3>
+          <p class="t-body">We'll tell you what we see, not what you want to hear. The most useful thing a strategic partner can do is name what's actually true.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Team ── -->
+  <section class="section section--yellow" aria-labelledby="team-heading">
+    <div class="container">
+      <p class="section-label reveal">The team</p>
+      <h2 class="t-display reveal reveal-delay-1" id="team-heading">Small on purpose.<br>Sharp by design.</h2>
+      <p class="t-body-lg reveal reveal-delay-2" style="max-width:600px; margin-top:24px; opacity:.8;">
+        We don't staff for volume. Every engagement gets senior attention — not a hand-off to a junior team after the pitch.
+      </p>
+      <div class="team-grid">
+        <div class="team-member reveal reveal-delay-1">
+          <div class="team-avatar team-avatar--red">JK</div>
+          <div>
+            <p class="team-member__name">Joanna Kwells</p>
+            <p class="team-member__role">Founder · Strategy Lead</p>
+          </div>
+        </div>
+        <div class="team-member reveal reveal-delay-2">
+          <div class="team-avatar team-avatar--blue">AB</div>
+          <div>
+            <p class="team-member__name">Alex Brennan</p>
+            <p class="team-member__role">Brand Director</p>
+          </div>
+        </div>
+        <div class="team-member reveal reveal-delay-3">
+          <div class="team-avatar team-avatar--black">MC</div>
+          <div>
+            <p class="team-member__name">Morgan Chen</p>
+            <p class="team-member__role">Systems Lead</p>
+          </div>
+        </div>
+        <div class="team-member reveal reveal-delay-4">
+          <div class="team-avatar" style="background: var(--pink); color: var(--black);">DR</div>
+          <div>
+            <p class="team-member__name">Dev Rao</p>
+            <p class="team-member__role">GTM Strategist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="section" aria-label="Contact CTA">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:32px;">
+        <h2 class="t-display reveal" style="max-width:600px;">Ready to see clearly?</h2>
+        <a href="contact.html" class="btn btn--primary reveal reveal-delay-1">Start a project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__logo">TPI</p>
+          <p class="footer__tagline">Clarity that converts.</p>
+          <nav class="footer__links" aria-label="Footer navigation">
+            <a href="#">Privacy</a>
+            <a href="#">LinkedIn</a>
+            <a href="contact.html">Email</a>
+          </nav>
+          <p class="footer__copyright">© 2025 Trivial Pursuits Inc. All rights reserved.</p>
+        </div>
+        <div class="footer__eyes" aria-hidden="true">
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#E8162B"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#1B3FE8"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <circle cx="60" cy="60" r="8" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#F5E616"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

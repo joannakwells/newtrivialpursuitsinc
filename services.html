@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — TPI | Trivial Pursuits Inc.</title>
+  <meta name="description" content="Brand strategy, systems design, and go-to-market consulting from Trivial Pursuits Inc.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page--light">
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo" aria-label="TPI Home">
+        <span class="nav__logo-mark">TPI</span>
+        <span class="nav__logo-name">Trivial Pursuits Inc.</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="contact.html" class="nav__cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ── -->
+  <section class="page-hero" aria-labelledby="services-heading">
+    <div class="container">
+      <p class="section-label reveal">Services</p>
+      <h1 class="t-display reveal reveal-delay-1" id="services-heading" style="max-width: 720px;">
+        Three ways to get<br>radically clear.
+      </h1>
+      <p class="t-body-lg reveal reveal-delay-2" style="max-width: 520px; margin-top: 24px; opacity:.65;">
+        We work across brand, operations, and market entry — separately or all at once. Most clients start by discovering they need all three.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Service Cards ── -->
+  <section aria-label="Service offerings">
+    <div class="services-grid">
+
+      <!-- 01 Brand Strategy -->
+      <div class="service-card service-card--red" id="brand">
+        <div class="service-card__eye" aria-hidden="true">
+          <svg class="eye-icon eye-icon--md" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="rgba(255,255,255,0.12)"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#E8162B"/>
+            <circle cx="60" cy="60" r="10" fill="#0A0A0A"/>
+            <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+          </svg>
+        </div>
+        <p class="service-card__num reveal">01</p>
+        <h2 class="service-card__title reveal reveal-delay-1">Brand Strategy<br>&amp; Positioning</h2>
+        <p class="service-card__desc reveal reveal-delay-2">
+          You know what you do. We help the world understand why it matters — and why it's you and not someone else.
+        </p>
+        <div class="reveal reveal-delay-3" style="border-top: 1px solid rgba(255,255,255,0.25); padding-top: 28px;">
+          <p style="font-size:15px; opacity:.8; margin-bottom:20px; line-height:1.7;">
+            We go beyond logo and tagline. Brand strategy is the set of decisions that determines who you're for, what you stand for, and how everything from your pitch deck to your product naming reflects that. The output: a positioning framework, messaging architecture, and a brand narrative that your whole team can use.
+          </p>
+          <ul style="font-size:14px; opacity:.7; display:flex; flex-direction:column; gap:8px; margin-bottom:28px;">
+            <li>→ Competitive positioning audit</li>
+            <li>→ Audience definition &amp; persona development</li>
+            <li>→ Brand narrative &amp; messaging framework</li>
+            <li>→ Naming &amp; verbal identity</li>
+            <li>→ Brand guidelines</li>
+          </ul>
+          <a href="contact.html" class="btn btn--outline">Start a brand project</a>
+        </div>
+      </div>
+
+      <!-- 02 Systems Design -->
+      <div class="service-card service-card--blue" id="systems">
+        <div class="service-card__eye" aria-hidden="true">
+          <svg class="eye-icon eye-icon--md" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="rgba(255,255,255,0.1)"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#1B3FE8"/>
+            <circle cx="60" cy="60" r="10" fill="#0A0A0A"/>
+            <circle cx="60" cy="60" r="5" fill="white"/>
+          </svg>
+        </div>
+        <p class="service-card__num reveal">02</p>
+        <h2 class="service-card__title reveal reveal-delay-1">Systems Design<br>&amp; Org Consulting</h2>
+        <p class="service-card__desc reveal reveal-delay-2">
+          Structure is strategy. We build the operating systems that let good ideas scale — and fix the ones that don't.
+        </p>
+        <div class="reveal reveal-delay-3" style="border-top: 1px solid rgba(255,255,255,0.25); padding-top: 28px;">
+          <p style="font-size:15px; opacity:.8; margin-bottom:20px; line-height:1.7;">
+            Most org problems are system problems in disguise. Decision rights are unclear. Accountability doesn't match authority. Work is getting done, but not the right work. We map how your organization actually functions, identify where it breaks, and design the structures that let your best thinking compound.
+          </p>
+          <ul style="font-size:14px; opacity:.7; display:flex; flex-direction:column; gap:8px; margin-bottom:28px;">
+            <li>→ Org design &amp; restructuring</li>
+            <li>→ Decision-making frameworks</li>
+            <li>→ Operating rhythms &amp; meeting systems</li>
+            <li>→ Role clarity &amp; accountability mapping</li>
+            <li>→ Scaling playbooks</li>
+          </ul>
+          <a href="contact.html" class="btn btn--outline">Start a systems project</a>
+        </div>
+      </div>
+
+      <!-- 03 GTM Strategy -->
+      <div class="service-card service-card--yellow" id="gtm">
+        <div class="service-card__eye" aria-hidden="true">
+          <svg class="eye-icon eye-icon--md" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="rgba(10,10,10,0.08)"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+          </svg>
+        </div>
+        <p class="service-card__num reveal">03</p>
+        <h2 class="service-card__title reveal reveal-delay-1">Go-to-Market<br>Strategy</h2>
+        <p class="service-card__desc reveal reveal-delay-2">
+          The right message, the right market, the right moment. We map the path from product to revenue.
+        </p>
+        <div class="reveal reveal-delay-3" style="border-top: 1px solid rgba(10,10,10,0.2); padding-top: 28px;">
+          <p style="font-size:15px; opacity:.75; margin-bottom:20px; line-height:1.7;">
+            GTM is not a launch — it's a system. We work with you to define your ideal customer, build the channels that reach them, craft the sequence that moves them, and create the feedback loops that improve it all over time.
+          </p>
+          <ul style="font-size:14px; opacity:.6; display:flex; flex-direction:column; gap:8px; margin-bottom:28px;">
+            <li>→ ICP definition &amp; market segmentation</li>
+            <li>→ Channel strategy &amp; prioritization</li>
+            <li>→ Sales motion &amp; pipeline design</li>
+            <li>→ Launch planning &amp; sequencing</li>
+            <li>→ GTM metrics &amp; iteration frameworks</li>
+          </ul>
+          <a href="contact.html" class="btn btn--outline-dark">Start a GTM project</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── How We Work ── -->
+  <section class="section" aria-labelledby="process-heading">
+    <div class="container">
+      <p class="section-label reveal">How we work</p>
+      <h2 class="t-display reveal reveal-delay-1" id="process-heading" style="max-width:640px; margin-bottom:64px;">
+        Fast enough to matter.<br>Deep enough to stick.
+      </h2>
+      <div class="grid-3">
+        <div class="reveal reveal-delay-1" style="border-top:3px solid var(--black); padding-top:24px;">
+          <p class="t-label" style="color:var(--red); margin-bottom:12px;">Phase 01</p>
+          <h3 class="t-title" style="margin-bottom:12px;">Diagnose</h3>
+          <p class="t-body" style="opacity:.65;">We interview stakeholders, audit existing assets, and map the actual problem — not the assumed one. This phase ends with a clarity brief that everyone can agree on.</p>
+        </div>
+        <div class="reveal reveal-delay-2" style="border-top:3px solid var(--black); padding-top:24px;">
+          <p class="t-label" style="color:var(--blue); margin-bottom:12px;">Phase 02</p>
+          <h3 class="t-title" style="margin-bottom:12px;">Design</h3>
+          <p class="t-body" style="opacity:.65;">We build the frameworks, narratives, and systems that solve the problem. All work is presented in working documents — no pitch theater, no concept decks.</p>
+        </div>
+        <div class="reveal reveal-delay-3" style="border-top:3px solid var(--black); padding-top:24px;">
+          <p class="t-label" style="margin-bottom:12px;">Phase 03</p>
+          <h3 class="t-title" style="margin-bottom:12px;">Deploy</h3>
+          <p class="t-body" style="opacity:.65;">We help you put the work into the world — training your team, refining the rollout, and staying available for the real-world questions that arise after launch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="section section--black" aria-label="Services CTA">
+    <div class="container">
+      <div style="display:flex; flex-direction:column; align-items:flex-start; gap:32px; max-width:720px;">
+        <h2 class="t-display reveal">Ready to get clear?</h2>
+        <p class="t-body-lg reveal reveal-delay-1" style="opacity:.7;">Tell us what's not working. We'll tell you what we see — and what we'd do about it.</p>
+        <a href="contact.html" class="btn btn--outline reveal reveal-delay-2">Start a project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__logo">TPI</p>
+          <p class="footer__tagline">Clarity that converts.</p>
+          <nav class="footer__links" aria-label="Footer navigation">
+            <a href="#">Privacy</a>
+            <a href="#">LinkedIn</a>
+            <a href="contact.html">Email</a>
+          </nav>
+          <p class="footer__copyright">© 2025 Trivial Pursuits Inc. All rights reserved.</p>
+        </div>
+        <div class="footer__eyes" aria-hidden="true">
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#E8162B"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#1B3FE8"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <circle cx="60" cy="60" r="8" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#F5E616"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insights — TPI | Trivial Pursuits Inc.</title>
+  <meta name="description" content="Sharp thinking on brand strategy, systems design, and go-to-market. No filler.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page--light">
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo" aria-label="TPI Home">
+        <span class="nav__logo-mark">TPI</span>
+        <span class="nav__logo-name">Trivial Pursuits Inc.</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="contact.html" class="nav__cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ── -->
+  <section class="page-hero" aria-labelledby="insights-heading">
+    <div class="container">
+      <p class="section-label reveal">Insights</p>
+      <h1 class="t-display reveal reveal-delay-1" id="insights-heading">
+        Sharp thinking.<br>No filler.
+      </h1>
+      <p class="t-body-lg reveal reveal-delay-2" style="max-width:480px; margin-top:24px; opacity:.6;">
+        Ideas we keep returning to. Frameworks that have held up in the real world.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Featured Post ── -->
+  <section class="section" style="padding-top:0;" aria-label="Featured insight">
+    <div class="container">
+      <div class="reveal" style="background: var(--black); color: var(--white); padding: clamp(40px,5vw,72px); display:grid; grid-template-columns: 3fr 2fr; gap: clamp(32px,4vw,64px); align-items: center;">
+        <div>
+          <p class="t-label" style="color: var(--red); margin-bottom:20px;">Featured · Brand</p>
+          <h2 class="t-title" style="font-size: clamp(28px, 3.5vw, 48px); margin-bottom:20px; letter-spacing:-0.03em;">
+            Why your positioning statement is lying to you
+          </h2>
+          <p style="font-size:17px; line-height:1.65; opacity:.75; margin-bottom:32px;">
+            Most positioning statements describe a category, not a company. They say "we help X do Y so they can Z" and stop there — which is exactly what every other company in the space is also saying. Here's how to tell the difference between a positioning statement and a positioning strategy.
+          </p>
+          <a href="#" class="btn btn--outline">Read the piece — 6 min</a>
+        </div>
+        <div aria-hidden="true" style="display:flex; justify-content:center;">
+          <svg class="eye-icon eye-icon--lg eye-float-1" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#E8162B"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Post Grid ── -->
+  <section class="section" style="padding-top:0;" aria-label="All insights">
+    <div class="container">
+      <div class="post-grid">
+
+        <!-- Post 1 -->
+        <article class="post-card reveal reveal-delay-1">
+          <p class="post-card__tag post-card__tag--systems">Systems</p>
+          <h2 class="post-card__title">
+            <a href="#">The org chart is not the org</a>
+          </h2>
+          <p class="post-card__excerpt">Your formal structure and your actual decision-making system are two different things. Fixing one without the other changes nothing.</p>
+          <p class="post-card__meta">5 min read</p>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="post-card reveal reveal-delay-2">
+          <p class="post-card__tag post-card__tag--gtm">GTM</p>
+          <h2 class="post-card__title">
+            <a href="#">GTM is not a launch — it's a system</a>
+          </h2>
+          <p class="post-card__excerpt">Launch events create buzz. Systems create revenue. Most GTM plans are built around the former and wonder why the latter doesn't stick.</p>
+          <p class="post-card__meta">7 min read</p>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="post-card reveal reveal-delay-3">
+          <p class="post-card__tag post-card__tag--brand">Brand</p>
+          <h2 class="post-card__title">
+            <a href="#">What brand actually means (and why most people get it wrong)</a>
+          </h2>
+          <p class="post-card__excerpt">Brand is not your logo, your color palette, or your tone of voice guide. It's the set of associations your audience carries — and you have less control over it than you think.</p>
+          <p class="post-card__meta">4 min read</p>
+        </article>
+
+        <!-- Post 4 -->
+        <article class="post-card reveal reveal-delay-1">
+          <p class="post-card__tag post-card__tag--systems">Systems</p>
+          <h2 class="post-card__title">
+            <a href="#">How to know if your strategy is working</a>
+          </h2>
+          <p class="post-card__excerpt">Most strategies fail not because they're wrong, but because nobody built the feedback loops to know they were drifting. Here's how to instrument your strategy.</p>
+          <p class="post-card__meta">6 min read</p>
+        </article>
+
+        <!-- Post 5 -->
+        <article class="post-card reveal reveal-delay-2">
+          <p class="post-card__tag post-card__tag--gtm">GTM</p>
+          <h2 class="post-card__title">
+            <a href="#">The first question every GTM plan should answer</a>
+          </h2>
+          <p class="post-card__excerpt">Before channels, before messaging, before budget — there's one question that determines whether everything else works. Most teams skip it.</p>
+          <p class="post-card__meta">5 min read</p>
+        </article>
+
+        <!-- Post 6 -->
+        <article class="post-card reveal reveal-delay-3">
+          <p class="post-card__tag post-card__tag--brand">Brand</p>
+          <h2 class="post-card__title">
+            <a href="#">The three-word test for your value proposition</a>
+          </h2>
+          <p class="post-card__excerpt">If you can't say your value proposition in three words, you don't have one yet. A simple diagnostic for founders and brand leads.</p>
+          <p class="post-card__meta">3 min read</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Newsletter / CTA ── -->
+  <section class="section section--yellow" aria-label="Newsletter CTA">
+    <div class="container">
+      <div style="max-width:640px;">
+        <h2 class="t-display reveal" style="margin-bottom:24px;">Get the thinking<br>in your inbox.</h2>
+        <p class="reveal reveal-delay-1" style="font-size:18px; line-height:1.6; margin-bottom:40px; opacity:.8;">
+          New pieces when we publish them. No cadence pressure, no newsletter theater. Just the ideas that are worth reading.
+        </p>
+        <form style="display:flex; gap:8px; flex-wrap:wrap;" aria-label="Newsletter signup">
+          <input type="email" placeholder="your@email.com" required
+            style="flex:1; min-width:240px; padding:14px 16px; border:2px solid var(--black); background:var(--white); font-size:16px; outline:none; border-radius:0; appearance:none;"
+            aria-label="Email address">
+          <button type="submit" class="btn btn--primary" style="white-space:nowrap;">Subscribe</button>
+        </form>
+        <p style="font-size:13px; margin-top:12px; opacity:.5;">No spam. Unsubscribe any time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__logo">TPI</p>
+          <p class="footer__tagline">Clarity that converts.</p>
+          <nav class="footer__links" aria-label="Footer navigation">
+            <a href="#">Privacy</a>
+            <a href="#">LinkedIn</a>
+            <a href="contact.html">Email</a>
+          </nav>
+          <p class="footer__copyright">© 2025 Trivial Pursuits Inc. All rights reserved.</p>
+        </div>
+        <div class="footer__eyes" aria-hidden="true">
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#E8162B"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#1B3FE8"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <circle cx="60" cy="60" r="8" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#F5E616"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

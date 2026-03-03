@@ -3,10 +3,258 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New Trivial Pursuits Inc.</title>
+  <title>TPI — Trivial Pursuits Inc. | Clarity that converts.</title>
+  <meta name="description" content="TPI is a brand strategy and systems consulting agency. We build the strategy behind brands that move markets.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>New Trivial Pursuits Inc.</h1>
-  <p>Welcome to New Trivial Pursuits Inc.</p>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo" aria-label="TPI Home">
+        <span class="nav__logo-mark">TPI</span>
+        <span class="nav__logo-name">Trivial Pursuits Inc.</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="contact.html" class="nav__cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero" aria-label="Hero">
+
+    <!-- Background eye icons (decorative) -->
+    <div class="hero__bg-eyes" aria-hidden="true">
+      <!-- Eye 1: Teardrop / Red -->
+      <svg class="eye-icon eye-icon--xl eye-float-1" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <rect width="120" height="120" fill="#E8162B"/>
+        <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+        <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+        <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+        <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+      </svg>
+      <!-- Eye 2: Circle / Blue -->
+      <svg class="eye-icon eye-icon--xl eye-float-2" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <rect width="120" height="120" fill="#1B3FE8"/>
+        <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+        <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+        <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+        <circle cx="60" cy="60" r="8" fill="white"/>
+      </svg>
+      <!-- Eye 3: Starburst / Yellow -->
+      <svg class="eye-icon eye-icon--xl eye-float-3" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <rect width="120" height="120" fill="#F5E616"/>
+        <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+        <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+        <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+        <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+      </svg>
+    </div>
+
+    <div class="hero__content container">
+      <p class="hero__eyebrow">Brand Strategy · Systems · Growth</p>
+      <h1 class="hero__headline">
+        <span>Clarity</span>
+        <span>that</span>
+        <span>converts.</span>
+      </h1>
+      <p class="hero__sub">We build the strategy behind brands that move markets.</p>
+      <a href="work.html" class="btn btn--outline">See our work</a>
+    </div>
+  </section>
+
+  <!-- ── What We Do ── -->
+  <section class="section" aria-labelledby="what-we-do-heading">
+    <div class="container">
+      <p class="section-label reveal">What we do</p>
+      <h2 class="t-display reveal reveal-delay-1" id="what-we-do-heading">
+        Three disciplines.<br>One point of view.
+      </h2>
+      <div class="what-we-do__grid">
+        <div class="what-we-do__item reveal reveal-delay-1">
+          <p class="what-we-do__num">01</p>
+          <h3 class="what-we-do__label">Brand.</h3>
+          <p class="what-we-do__desc">Most companies know what they do. We help the world understand why it matters — and why it's you and not someone else.</p>
+          <a href="services.html#brand" class="link-arrow">Brand strategy</a>
+        </div>
+        <div class="what-we-do__item reveal reveal-delay-2">
+          <p class="what-we-do__num">02</p>
+          <h3 class="what-we-do__label">Systems.</h3>
+          <p class="what-we-do__desc">A good idea trapped in a broken org never scales. We design the operating systems that let your best work compound.</p>
+          <a href="services.html#systems" class="link-arrow">Systems design</a>
+        </div>
+        <div class="what-we-do__item reveal reveal-delay-3">
+          <p class="what-we-do__num">03</p>
+          <h3 class="what-we-do__label">Growth.</h3>
+          <p class="what-we-do__desc">Go-to-market isn't a launch event. It's a repeatable system for finding the right buyers and moving them to yes.</p>
+          <a href="services.html#gtm" class="link-arrow">GTM strategy</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Divider ── -->
+  <div class="divider" role="separator"></div>
+
+  <!-- ── Why TPI (Red block) ── -->
+  <section class="section section--red" aria-labelledby="why-tpi-heading">
+    <div class="container">
+      <div style="max-width: 800px;">
+        <p class="section-label reveal" style="opacity:.55;">Why TPI</p>
+        <h2 class="t-display reveal reveal-delay-1" id="why-tpi-heading">
+          Most agencies make things<br>look good. We make them<br>make sense first.
+        </h2>
+        <p class="t-body-lg reveal reveal-delay-2" style="margin-top:32px; opacity:.85;">
+          Strategy without clarity is just expensive guessing. We start with the signal — the real problem, the actual opportunity — and build out from there.
+        </p>
+        <a href="about.html" class="btn btn--outline reveal reveal-delay-3" style="margin-top:48px;">Our approach</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Selected Work Teaser ── -->
+  <section class="section" aria-labelledby="work-teaser-heading">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:48px; flex-wrap:wrap; gap:16px;">
+        <div>
+          <p class="section-label reveal">Selected work</p>
+          <h2 class="t-display reveal reveal-delay-1" id="work-teaser-heading">Results we're<br>proud to name.</h2>
+        </div>
+        <a href="work.html" class="link-arrow reveal reveal-delay-2">See all work</a>
+      </div>
+
+      <div class="work-grid" style="grid-template-columns: repeat(3,1fr); gap:3px;">
+        <!-- Work card 1 -->
+        <div class="work-card reveal reveal-delay-1" data-category="brand">
+          <div class="work-card__thumb work-card__thumb--red">
+            <svg width="72" height="72" viewBox="0 0 120 120" aria-hidden="true">
+              <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="rgba(255,255,255,0.25)"/>
+              <circle cx="60" cy="60" r="14" fill="rgba(255,255,255,0.5)"/>
+              <path d="M 60 51 Q 66 60 60 69 Q 54 60 60 51 Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="work-card__overlay">
+            <p class="work-card__tag">Brand Strategy</p>
+            <p class="work-card__industry">FinTech Startup</p>
+            <p class="work-card__outcome">Repositioned brand, 3× pipeline growth in 6 months.</p>
+          </div>
+        </div>
+        <!-- Work card 2 -->
+        <div class="work-card reveal reveal-delay-2" data-category="systems">
+          <div class="work-card__thumb work-card__thumb--blue">
+            <svg width="72" height="72" viewBox="0 0 120 120" aria-hidden="true">
+              <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="rgba(255,255,255,0.25)"/>
+              <circle cx="60" cy="60" r="14" fill="rgba(255,255,255,0.5)"/>
+              <circle cx="60" cy="60" r="6" fill="white"/>
+            </svg>
+          </div>
+          <div class="work-card__overlay">
+            <p class="work-card__tag">Systems Design</p>
+            <p class="work-card__industry">SaaS Scale-Up</p>
+            <p class="work-card__outcome">Rebuilt org structure. Decision time cut by 60%.</p>
+          </div>
+        </div>
+        <!-- Work card 3 -->
+        <div class="work-card reveal reveal-delay-3" data-category="gtm">
+          <div class="work-card__thumb work-card__thumb--yellow">
+            <svg width="72" height="72" viewBox="0 0 120 120" aria-hidden="true">
+              <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="rgba(10,10,10,0.15)"/>
+              <circle cx="60" cy="60" r="14" fill="rgba(10,10,10,0.3)"/>
+              <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="rgba(10,10,10,0.7)"/>
+            </svg>
+          </div>
+          <div class="work-card__overlay">
+            <p class="work-card__tag">Go-to-Market</p>
+            <p class="work-card__industry">B2B Software</p>
+            <p class="work-card__outcome">New product launch, $2M ARR in year one.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Insights Teaser ── -->
+  <section class="section section--black" aria-labelledby="insights-teaser-heading">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:48px; flex-wrap:wrap; gap:16px;">
+        <div>
+          <p class="section-label reveal" style="opacity:.4;">From the desk</p>
+          <h2 class="t-display reveal reveal-delay-1" id="insights-teaser-heading">Sharp thinking.<br>No filler.</h2>
+        </div>
+        <a href="insights.html" class="link-arrow reveal reveal-delay-2">Read the thinking</a>
+      </div>
+
+      <div class="grid-2 reveal reveal-delay-2">
+        <div class="post-card" style="border-color: rgba(255,255,255,0.2);">
+          <p class="post-card__tag" style="color: var(--red);">Brand</p>
+          <h3 class="post-card__title" style="color: var(--white);">Why your positioning statement is lying to you</h3>
+          <p class="post-card__excerpt" style="color: rgba(255,255,255,0.55);">Most positioning statements describe a category, not a company. Here's how to tell the difference — and what to do about it.</p>
+          <p class="post-card__meta">6 min read</p>
+        </div>
+        <div class="post-card" style="border-color: rgba(255,255,255,0.2);">
+          <p class="post-card__tag" style="color: #1B3FE8;">Systems</p>
+          <h3 class="post-card__title" style="color: var(--white);">The org chart is not the org</h3>
+          <p class="post-card__excerpt" style="color: rgba(255,255,255,0.55);">Your formal structure and your actual decision-making system are two different things. Fixing one without the other changes nothing.</p>
+          <p class="post-card__meta">5 min read</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__logo">TPI</p>
+          <p class="footer__tagline">Clarity that converts.</p>
+          <nav class="footer__links" aria-label="Footer navigation">
+            <a href="#">Privacy</a>
+            <a href="#">LinkedIn</a>
+            <a href="contact.html">Email</a>
+          </nav>
+          <p class="footer__copyright">© 2025 Trivial Pursuits Inc. All rights reserved.</p>
+        </div>
+        <!-- Footer eyes -->
+        <div class="footer__eyes" aria-hidden="true">
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#E8162B"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#1B3FE8"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <circle cx="60" cy="60" r="8" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#F5E616"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>

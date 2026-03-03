@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — TPI | Trivial Pursuits Inc.</title>
+  <meta name="description" content="Case studies from TPI — brand strategy, systems design, and go-to-market results.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page--light">
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo" aria-label="TPI Home">
+        <span class="nav__logo-mark">TPI</span>
+        <span class="nav__logo-name">Trivial Pursuits Inc.</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="contact.html" class="nav__cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ── -->
+  <section class="page-hero" aria-labelledby="work-heading">
+    <div class="container">
+      <p class="section-label reveal">Selected work</p>
+      <h1 class="t-display reveal reveal-delay-1" id="work-heading">
+        Results we're<br>proud to name.
+      </h1>
+      <p class="t-body-lg reveal reveal-delay-2" style="max-width:480px; margin-top:24px; opacity:.6;">
+        We don't hide behind pretty decks. Here's what we actually built — and what it actually moved.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Work Grid ── -->
+  <section class="section" style="padding-top:0;" aria-label="Case studies">
+    <div class="container">
+      <!-- Filter Tabs -->
+      <div class="work-filters reveal" role="tablist" aria-label="Filter by category">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="brand" role="tab" aria-selected="false">Brand</button>
+        <button class="filter-btn" data-filter="systems" role="tab" aria-selected="false">Systems</button>
+        <button class="filter-btn" data-filter="gtm" role="tab" aria-selected="false">GTM</button>
+      </div>
+
+      <!-- Grid -->
+      <div class="work-grid reveal reveal-delay-1">
+
+        <!-- Card 1: FinTech / Brand -->
+        <div class="work-card is-visible" data-category="brand" aria-label="FinTech Startup — Brand Strategy">
+          <div class="work-card__thumb work-card__thumb--red">
+            <svg width="80" height="80" viewBox="0 0 120 120" aria-hidden="true">
+              <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="5"/>
+              <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="rgba(255,255,255,0.2)"/>
+              <circle cx="60" cy="60" r="18" fill="rgba(255,255,255,0.35)"/>
+              <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="work-card__overlay">
+            <p class="work-card__tag">Brand Strategy</p>
+            <p class="work-card__industry">FinTech Startup</p>
+            <p class="work-card__outcome">Repositioned brand from feature-led to mission-led. 3× pipeline growth in 6 months.</p>
+          </div>
+        </div>
+
+        <!-- Card 2: SaaS / Systems -->
+        <div class="work-card is-visible" data-category="systems" aria-label="SaaS Scale-Up — Systems Design">
+          <div class="work-card__thumb work-card__thumb--blue">
+            <svg width="80" height="80" viewBox="0 0 120 120" aria-hidden="true">
+              <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="5"/>
+              <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="rgba(255,255,255,0.2)"/>
+              <circle cx="60" cy="60" r="18" fill="rgba(255,255,255,0.35)"/>
+              <circle cx="60" cy="60" r="8" fill="white"/>
+            </svg>
+          </div>
+          <div class="work-card__overlay">
+            <p class="work-card__tag">Systems Design</p>
+            <p class="work-card__industry">SaaS Scale-Up</p>
+            <p class="work-card__outcome">Rebuilt org structure around customer outcomes. Decision time cut by 60%.</p>
+          </div>
+        </div>
+
+        <!-- Card 3: D2C / Brand -->
+        <div class="work-card is-visible" data-category="brand" aria-label="D2C Consumer Brand — Brand Strategy">
+          <div class="work-card__thumb work-card__thumb--yellow">
+            <svg width="80" height="80" viewBox="0 0 120 120" aria-hidden="true">
+              <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(10,10,10,0.2)" stroke-width="5"/>
+              <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="rgba(10,10,10,0.1)"/>
+              <circle cx="60" cy="60" r="18" fill="rgba(10,10,10,0.25)"/>
+              <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="rgba(10,10,10,0.7)"/>
+            </svg>
+          </div>
+          <div class="work-card__overlay">
+            <p class="work-card__tag">Brand Strategy</p>
+            <p class="work-card__industry">D2C Consumer Brand</p>
+            <p class="work-card__outcome">Full rebrand anchored in founder story. 40% lift in conversion rate within 90 days.</p>
+          </div>
+        </div>
+
+        <!-- Card 4: Professional Services / GTM -->
+        <div class="work-card is-visible" data-category="gtm" aria-label="Professional Services Firm — GTM">
+          <div class="work-card__thumb work-card__thumb--black">
+            <svg width="80" height="80" viewBox="0 0 120 120" aria-hidden="true">
+              <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="5"/>
+              <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="rgba(255,255,255,0.1)"/>
+              <circle cx="60" cy="60" r="18" fill="rgba(255,255,255,0.2)"/>
+              <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="rgba(255,255,255,0.6)"/>
+            </svg>
+          </div>
+          <div class="work-card__overlay">
+            <p class="work-card__tag">Go-to-Market</p>
+            <p class="work-card__industry">Professional Services Firm</p>
+            <p class="work-card__outcome">Entered 3 new verticals in one quarter. Signed first enterprise contracts within 60 days.</p>
+          </div>
+        </div>
+
+        <!-- Card 5: Healthcare Tech / Systems -->
+        <div class="work-card is-visible" data-category="systems" aria-label="Healthcare Tech — Systems Design">
+          <div class="work-card__thumb work-card__thumb--pink">
+            <svg width="80" height="80" viewBox="0 0 120 120" aria-hidden="true">
+              <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(10,10,10,0.2)" stroke-width="5"/>
+              <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="rgba(10,10,10,0.1)"/>
+              <circle cx="60" cy="60" r="18" fill="rgba(10,10,10,0.2)"/>
+              <circle cx="60" cy="60" r="8" fill="rgba(10,10,10,0.5)"/>
+            </svg>
+          </div>
+          <div class="work-card__overlay">
+            <p class="work-card__tag">Systems Design</p>
+            <p class="work-card__industry">Healthcare Tech</p>
+            <p class="work-card__outcome">Streamlined ops across 4 teams. 2× team output, zero headcount increase.</p>
+          </div>
+        </div>
+
+        <!-- Card 6: B2B Software / GTM -->
+        <div class="work-card is-visible" data-category="gtm" aria-label="B2B Software — GTM">
+          <div class="work-card__thumb" style="background: var(--blue); filter: brightness(0.7);">
+            <svg width="80" height="80" viewBox="0 0 120 120" aria-hidden="true">
+              <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="5"/>
+              <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="rgba(255,255,255,0.15)"/>
+              <circle cx="60" cy="60" r="18" fill="rgba(255,255,255,0.3)"/>
+              <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="work-card__overlay">
+            <p class="work-card__tag">Go-to-Market</p>
+            <p class="work-card__industry">B2B Software</p>
+            <p class="work-card__outcome">New product launch with full GTM system. $2M ARR in year one.</p>
+          </div>
+        </div>
+
+      </div><!-- /.work-grid -->
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="section section--red" aria-label="Work CTA">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:32px;">
+        <div>
+          <h2 class="t-display reveal">Want results like these?</h2>
+          <p class="reveal reveal-delay-1" style="margin-top:16px; font-size:18px; opacity:.85; max-width:480px;">Tell us what you're working on. We'll tell you if we're the right fit.</p>
+        </div>
+        <a href="contact.html" class="btn btn--outline reveal reveal-delay-2">Start a project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__logo">TPI</p>
+          <p class="footer__tagline">Clarity that converts.</p>
+          <nav class="footer__links" aria-label="Footer navigation">
+            <a href="#">Privacy</a>
+            <a href="#">LinkedIn</a>
+            <a href="contact.html">Email</a>
+          </nav>
+          <p class="footer__copyright">© 2025 Trivial Pursuits Inc. All rights reserved.</p>
+        </div>
+        <div class="footer__eyes" aria-hidden="true">
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#E8162B"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#1B3FE8"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <circle cx="60" cy="60" r="8" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#F5E616"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

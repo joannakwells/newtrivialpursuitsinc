@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — TPI | Trivial Pursuits Inc.</title>
+  <meta name="description" content="Start a project with TPI. We respond within 1 business day. No pitch decks required.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page--light">
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo" aria-label="TPI Home">
+        <span class="nav__logo-mark">TPI</span>
+        <span class="nav__logo-name">Trivial Pursuits Inc.</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="contact.html" class="nav__cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ── -->
+  <section class="page-hero" aria-labelledby="contact-heading">
+    <div class="container">
+      <p class="section-label reveal">Contact</p>
+      <h1 class="t-display reveal reveal-delay-1" id="contact-heading">
+        Let's get<br>to work.
+      </h1>
+      <p class="t-body-lg reveal reveal-delay-2" style="max-width:460px; margin-top:24px; opacity:.6;">
+        We respond within 1 business day. No pitch decks required.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Contact Form + Aside ── -->
+  <section class="section" style="padding-top:0;" aria-label="Contact form">
+    <div class="container">
+      <div class="grid-2" style="align-items: start; gap: clamp(32px,5vw,80px);">
+
+        <!-- Form -->
+        <div>
+          <form class="contact-form" id="contactForm" novalidate aria-label="Project inquiry form">
+            <div class="form-group reveal">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name">
+            </div>
+            <div class="form-group reveal reveal-delay-1">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" placeholder="Acme Inc." autocomplete="organization">
+            </div>
+            <div class="form-group reveal reveal-delay-2">
+              <label for="need">What do you need?</label>
+              <select id="need" name="need" required>
+                <option value="" disabled selected>Select one</option>
+                <option value="brand">Brand Strategy &amp; Positioning</option>
+                <option value="systems">Systems Design &amp; Org Consulting</option>
+                <option value="gtm">Go-to-Market Strategy</option>
+                <option value="combination">A combination of the above</option>
+                <option value="notsure">Not sure yet</option>
+              </select>
+            </div>
+            <div class="form-group reveal reveal-delay-3">
+              <label for="message">Tell us what's going on</label>
+              <textarea id="message" name="message" placeholder="What's the problem you're trying to solve? What have you tried? What does success look like?" required></textarea>
+            </div>
+            <div class="form-group reveal reveal-delay-4">
+              <label for="email">Your email</label>
+              <input type="email" id="email" name="email" placeholder="jane@acme.com" required autocomplete="email">
+            </div>
+            <div class="reveal reveal-delay-5">
+              <button type="submit" class="btn btn--primary" style="width:100%;">Send it</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Aside -->
+        <div class="reveal reveal-delay-1">
+          <div class="contact-aside">
+            <div>
+              <p class="contact-aside__label">Direct email</p>
+              <p class="contact-aside__value" style="margin-top:8px;">
+                <a href="mailto:hello@trivialpursuits.inc" style="color: var(--yellow);">hello@trivialpursuits.inc</a>
+              </p>
+            </div>
+            <div class="divider" style="opacity:.15;"></div>
+            <div>
+              <p class="contact-aside__label">Response time</p>
+              <p class="contact-aside__value" style="margin-top:8px; font-size:16px; opacity:.8;">We respond within 1 business day. If your project is urgent, say so — we'll prioritize.</p>
+            </div>
+            <div class="divider" style="opacity:.15;"></div>
+            <div>
+              <p class="contact-aside__label">What happens next</p>
+              <ul style="margin-top:12px; display:flex; flex-direction:column; gap:12px;">
+                <li style="font-size:15px; opacity:.75; line-height:1.5;">→ We read your message carefully (not a VA, not a bot)</li>
+                <li style="font-size:15px; opacity:.75; line-height:1.5;">→ We schedule a 30-minute call to understand the problem</li>
+                <li style="font-size:15px; opacity:.75; line-height:1.5;">→ If we're the right fit, we'll say so. If not, we'll point you somewhere better.</li>
+              </ul>
+            </div>
+            <div class="divider" style="opacity:.15;"></div>
+            <!-- Small eyes -->
+            <div style="display:flex; gap:10px;" aria-hidden="true">
+              <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                <rect width="120" height="120" fill="#E8162B"/>
+                <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+                <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+                <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+                <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+              </svg>
+              <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                <rect width="120" height="120" fill="#1B3FE8"/>
+                <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+                <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+                <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+                <circle cx="60" cy="60" r="8" fill="white"/>
+              </svg>
+              <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                <rect width="120" height="120" fill="#F5E616"/>
+                <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+                <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+                <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+                <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__logo">TPI</p>
+          <p class="footer__tagline">Clarity that converts.</p>
+          <nav class="footer__links" aria-label="Footer navigation">
+            <a href="#">Privacy</a>
+            <a href="#">LinkedIn</a>
+            <a href="contact.html">Email</a>
+          </nav>
+          <p class="footer__copyright">© 2025 Trivial Pursuits Inc. All rights reserved.</p>
+        </div>
+        <div class="footer__eyes" aria-hidden="true">
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#E8162B"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 49 Q 67 60 60 71 Q 53 60 60 49 Z" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#1B3FE8"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <circle cx="60" cy="60" r="8" fill="white"/>
+          </svg>
+          <svg class="eye-icon eye-icon--sm" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" fill="#F5E616"/>
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+            <path d="M 16 60 C 16 32 104 32 104 60 C 104 88 16 88 16 60 Z" fill="white"/>
+            <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+            <path d="M 60 52 L 61.3 56.8 L 65.7 54.3 L 63.2 58.7 L 68 60 L 63.2 61.3 L 65.7 65.7 L 61.3 63.2 L 60 68 L 58.7 63.2 L 54.3 65.7 L 56.8 61.3 L 52 60 L 56.8 58.7 L 54.3 54.3 L 58.7 56.8 Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
