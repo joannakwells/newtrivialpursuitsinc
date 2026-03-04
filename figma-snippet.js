@@ -263,6 +263,17 @@
     sec.appendChild(mkText('Strategy without clarity is just expensive guessing. We start with the signal — the real problem, the actual opportunity — and build out from there.',
       G, 370, { family: DS, style: 'Regular', size: 20, color: WHITE, a: 0.85, lh: 150, w: 680 }));
 
+    // "Our approach" CTA button
+    const btnBorder = figma.createRectangle();
+    btnBorder.name = 'Why TPI CTA border'; btnBorder.x = G; btnBorder.y = 390;
+    btnBorder.resize(160, 46); btnBorder.fills = [];
+    btnBorder.strokes = [{ type: 'SOLID', color: WHITE, opacity: 0.65 }];
+    btnBorder.strokeWeight = 2;
+    sec.appendChild(btnBorder);
+
+    sec.appendChild(mkText('Our approach', G + 20, 403,
+      { style: 'Bold', size: 12, color: WHITE, ls: 1.0, upper: true }));
+
     Y += H;
   }
 
